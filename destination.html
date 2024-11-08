@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Travel Paradise</title>
+    <link rel="stylesheet" href="destination.css">
+ 
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="nav-container">
+                <ul class="nav-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="destination.html">DESTINATIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Discover Your Next Adventure</h1>
+    </header>
+
+    <main>
+        <section class="destinations">
+            <h2>Popular Destinations</h2>
+            <div class="destination-grid">
+                <!-- Destination Cards -->
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="vskp.jpg" height="200px" width="200px">
+                         <h3> Vizag </h3>
+                        <p>Experience the beautiful beaches and vibrant culture of Vizag.</p>
+                        <p class="price">From 999</p>
+                        <button class="explore-btn" onclick="openModal('vizag')">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="vizia12.jpg" height="200px" width="200px">
+                        <h3>Vizianagaram </h3>
+                        <p> 
+                           vizianagaram i agood place</p>
+                        <p class="price">From 150</p>
+                        <button class="explore-btn" onclick="openModal('Vizianagaram')">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="bw.jpeg" height="200px" width="200px">
+                        <h3> Bhubaneswar </h3>
+                        <p>Odisha is known for its beautiful climate and rich cultural heritage.</p>
+                        <p class="price">From 150</p>
+                        <button class="explore-btn" onclick="openModal('Bhubaneswar')">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="dhenkenal.jpg" height="200px" width="200px">
+                        <h3> Dhenkennal</h3>
+                        <p>Chhattisgarh is a state with a rich tribal culture and scenic landscapes.</p>
+                        <p class="price">From 899</p>
+                        <button class="explore-btn" onclick="openModal('dhenkenal')">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="bilaspur.jpg" height="200px" width="200px">
+                        <h3> Bilaspur </h3>
+                        <p>Bilaspur offers stunning natural beauty and a rich cultural experience.</p>
+                        <p class="price">From 150</p>
+                        <button class="explore-btn" onclick="openModal('bilaspur')">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="raipur.jpg" height="200px" width="200px">
+                        <h3> Raipur</h3>
+                        <p>Raipur is an important railway hub with historical significance.</p>
+                        <p class="price">From 150</p>
+                        <button class="explore-btn" onclick="openModal('Raipur')">Learn More</button>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <div class="card-content">
+                        <img src="gw.webp" height="200px" width="200px">
+                        <h3> Gwalior </h3>
+                        <p> Gwalior is situated in madhya pradesh.which is having a good historical background among the whole the madhyapradesh</p>
+                        <p class="price">From 150</p>
+                        <button class="explore-btn" onclick="openModal('Gwalior')">Learn More</button>
+                    </div>
+                </article>
+                <article
+                 class="destination-card">
+                    <div class="card-content">
+                        <img src="VGL.jpg" height="200px" width="200px"> 
+                        <h3> Jhansi Junction </h3>
+                        <p>Jhansi Junction is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+                        <p class="price">From 999</p>
+                        <button class="explore-btn" onclick="openModal('Jhansi Junction')">Learn More</button>
+                    </div>
+                </article>
+                <article
+                class="destination-card">
+                <div class="card-content">
+                    <img src="agra.jpg" height="200px" width="200px"> 
+                    <h3>  Agra</h3>
+                    <p> Agra is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+                    <p class="price">From 999</p>
+                    <button class="explore-btn" onclick="openModal('Agra')">Learn More</button>
+                </div>
+            </article>
+            <article
+                class="destination-card">
+                <div class="card-content">
+                    <img src="dl.jpg" height="200px" width="200px"> 
+                    <h3>Delhi</h3>
+                    <p> Delhi is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+                    <p class="price">From 999</p>
+                    <button class="explore-btn" onclick="openModal('Delhi')">Learn More</button>
+                </div>
+            </article>
+            <article
+            class="destination-card">
+            <div class="card-content">
+                <img src="kurukshetra.png" height="200px" width="200px"> 
+                <h3>Kurukshetra</h3>
+                <p> Kurukshetra is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+                <p class="price">From 999</p>
+                <button class="explore-btn" onclick="openModal('Kurukshetra')">Learn More</button>
+            </div>
+        </article>
+        <article
+        class="destination-card">
+        <div class="card-content">
+            <img src="ludhiana.jpg" height="200px" width="200px"> 
+            <h3>Ludhiana</h3>
+            <p> Ludhiana is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+            <p class="price">From 999</p>
+            <button class="explore-btn" onclick="openModal('Ludhiana')">Learn More</button>
+        </div>
+    </article>
+    <article
+    class="destination-card">
+    <div class="card-content">
+        <img src="jalandhar.jpg" height="200px" width="200px"> 
+        <h3>Jalandhar</h3>
+        <p> Jalandhar is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+        <p class="price">From 999</p>
+        <button class="explore-btn" onclick="openModal('Jalandhar')">Learn More</button>
+    </div>
+</article>
+<article
+class="destination-card">
+<div class="card-content">
+    <img src="LPU.jpg" height="200px" width="200px"> 
+    <h3>LPU</h3>
+    <p> LPU is situated in the the state of madhya pradesh .which is having th e good historical background among the whole state.</p>
+    <p class="price">From 999</p>
+    <button class="explore-btn" onclick="openModal('LPU')">Learn More</button>
+</div>
+</article>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="" />
+            <div id="modal-description"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Travel Paradise. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openModal(destination) {
+            const modal = document.getElementById('modal');
+            const modalImage = document.getElementById('modal-image');
+            const modalDescription = document.getElementById('modal-description');
+
+            if (destination === 'vizag') {
+                modalImage.src = "vskp.jpg" // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Vizag</h3><p>Experience the beautiful beaches and vibrant culture of Vizag.Visakhapatnam, sHIII.</p>" 
+            } else if (destination === 'Vizianagaram') {
+                modalImage.src = "vizia12.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Vizianagaram</h3><p> i love the vizianagaram my frnd name is [avan kishore kuma r he in s staying there unly and kya hai my name is pavan kishore kumar i love u my parents kk samjhe ] </p>";
+            } else if (destination === 'Bhubaneswar') {
+                modalImage.src = "bw.jpeg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Bhubaneswar</h3><p>Odisha is known for its beautiful climate and rich cultural heritage.</p>";
+            } else if (destination === 'Dhenkenal') {
+                modalImage.src = "dhenkenal.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3> Dhenkenal</h3><p>Chhattisgarh is a state with a rich tribal culture and scenic landscapes.HHHH</p>";
+            } else if (destination === 'bilaspur') {
+                modalImage.src = "bilaspur.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Bilaspur</h3><p>Bilaspur offers stunning natural beauty and a rich cultural experience.</p>";
+            } else if (destination === 'Raipur') {
+                modalImage.src = " raipur.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Raipur</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Gwalior') {
+                modalImage.src = "gw.webp"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Gwalior</h3><p>Gwalior is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Jhansi') {
+                modalImage.src = " VGL.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>VGL Jhansi</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Agra') {
+                modalImage.src = "agra.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Agra</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Delhi') {
+                modalImage.src = " dl.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Delhi</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Kurukshetra') {
+                modalImage.src = " kurukshetra.png"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Kurukshetra</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Ludhiana') {
+                modalImage.src = "ludhiana.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Ludhiana</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'Jalandhar') {
+                modalImage.src = " jalandhar.jpg"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>Jalandhar</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            
+            } else if (destination === 'LOVELY PROFESSIONAL UNIVERSITY') {
+                modalImage.src = "LPU"; // Replace with actual image URL
+                modalDescription.innerHTML = "<h3>LOVELY PROFESSIONAL UNIVERSITY</h3><p>Raipur is an important railway hub with historical significance.</p>";
+            }
+            modal.style.display = "block";
+        
+        }
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
